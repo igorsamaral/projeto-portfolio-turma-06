@@ -1,5 +1,10 @@
 :root {
     --fundo-site: #171717;
+    --texto-cinza: #828282;
+    --borda-perfil: #202020;
+    --primaria: #27AE60;
+    --primaria-claro: #42bb74;
+    --secondaria: #ffffff;
 }
 
 body {
@@ -9,4 +14,53 @@ body {
 a.nav-link {
     font-size: 18px;
     margin: 0 20px;
+}
+
+.text-gray {
+    color: var(--texto-cinza);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+.btn-primary {
+    background-color: var(--primaria);
+    color: white;
+    border-color: var(--primaria);
+}
+
+.btn-primary:hover {
+    background-color: var(--primaria-claro);
+    border-color: var(--primaria-claro);
+}
+
+.btn-outline-secondary {
+    color: white;
+    border-color: var(--secondaria);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondaria);
+    border-color: var(--secondaria);
+    color: var(--fundo-site);
+}
+
+/* Margins */
+.my-10 {
+    margin: 100px 0;
+}
+
+/* Imagem de perfil */
+.profile-image {
+    border: 2px solid var(--borda-perfil);
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.profile-image img {
+    width: 100%;
+    border-radius: 50%;
 }
