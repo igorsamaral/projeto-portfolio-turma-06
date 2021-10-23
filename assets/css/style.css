@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 :root {
     --fundo-site: #171717;
     --texto-cinza: #828282;
@@ -5,6 +7,10 @@
     --primaria: #27AE60;
     --primaria-claro: #42bb74;
     --secondaria: #ffffff;
+}
+
+* {
+    font-family: 'DM Sans', sans-serif;
 }
 
 body {
