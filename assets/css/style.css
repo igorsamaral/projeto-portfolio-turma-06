@@ -87,3 +87,16 @@ a.nav-link {
     background-color: var(--primaria);
     border-radius: 50%;
 }
+
+.form-control {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-color: var(--primaria);
+}
