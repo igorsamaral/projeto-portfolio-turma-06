@@ -70,3 +70,20 @@ a.nav-link {
     width: 100%;
     border-radius: 50%;
 }
+
+.circle-external {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    background-color: #212121;
+    border-radius: 50%;
+}
+
+.circle-internal {
+    width: 12px;
+    height: 12px;
+    background-color: var(--primaria);
+    border-radius: 50%;
+}
