@@ -70,3 +70,17 @@ a.nav-link {
     width: 100%;
     border-radius: 50%;
 }
+
+.item-i-do {
+    background-color: #212121;
+    padding: 25px 45px;
+}
+
+.item-i-do:nth-child(2) {
+    border: 2px solid black;
+    border-bottom: 5px solid var(--primaria);
+}
+
+.text-gray-3 {
+    color: #535353;
+}
